@@ -1,36 +1,29 @@
-# Assignment-1
+# Assignment 1
 
-This repository contains a TypeScript practice assignment focused on core language features used in modern frontend and backend development. It demonstrates how TypeScript improves code safety with typed functions, unions, tuples, generics, interfaces, classes, and asynchronous validation.
+This repository contains a TypeScript assignment focused on core language features and practical coding examples. It includes a TypeScript practice file and two blog-style markdown explanations covering important concepts in modern TypeScript development.
 
-## Repository Overview
+## Assignment Overview
 
-The project includes practical examples for:
+The project demonstrates the use of:
 
-- Function parameters and default values
-- Union types and type guards
-- Read-only tuple definitions
-- Generic utility functions
-- Interface-based data modeling
-- Class inheritance and encapsulation
-- Async functions with Promise-based validation
+- function parameters and default values
+- union types and type guards
+- generic functions
+- tuple definitions
+- object modeling with interfaces
+- class inheritance and encapsulation
+- async functions with Promise-based validation
 
-## Files
+## Included Files
 
-- `solution.ts` — TypeScript examples and exercises covering the topics above
-- `type-vs-interface .md` — blog-style explanation comparing `type` aliases and `interface` declarations
+- `solution.ts` — TypeScript examples and exercises
+- [`type-vs-interface.md`](./type-vs-interface.md) — blog on `type` vs `interface`
+- [`union-intersection.md`](./union-intersection.md) — blog on union and intersection patterns
+- `README.md` — overview and links to the assignment files
 
-## Blog Files
+## Blog Links
 
-- [Type vs Interface](./type-vs-interface%20.md)
-- [Assignment Overview](./README.md)
+- [Type vs Interface](./type-vs-interface.md)
+- [Union Inside Intersection](./union-intersection.md)
 
-## Example Topics Included
-
-- `processInput(value: string | number | boolean)` demonstrates union handling
-- `formatCoordinate(location: readonly [number, number, string])` shows tuple usage
-- `concatenateArrays<T>(...arrays: T[][])` demonstrates generic functions
-- `Course` interface and `getPopularCourses(...)` show object modeling and filtering
-- `Employee` and `Manager` classes demonstrate inheritance and encapsulation
-- `validateAgeAsync(age: number)` shows async validation logic
-
-This assignment helps build a strong foundation in TypeScript by combining syntax examples with real-world patterns.
+This assignment helps build a strong foundation in TypeScript by combining practical code examples with clear written explanations.
